@@ -52,7 +52,7 @@ namespace RGB_img
             {
                 for (int y = 0; y < Columns; y++)
                 {
-                    Pixel p = image.Pixels[x, y];
+                    Pixel p = image.Pixels[y, x];
 
                     var rect = new Rectangle
                     {
